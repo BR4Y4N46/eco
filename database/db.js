@@ -2,11 +2,6 @@ const mysql =  require('mysql');
 const colors = require('colors');
 
 
-
-
-        
-
-
  //* MYSQL *//       
 const conexion = mysql.createConnection({
     host: 'mysql-92682-0.cloudclusters.net',

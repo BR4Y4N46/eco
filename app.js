@@ -11,7 +11,8 @@ const bodyParser = require("body-parser");
 app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
-app.use('/', express.static(__dirname, + 'public'))
+app.use('/', express.static(__dirname, + 'public'));
+
 app.use(bodyParser.urlencoded({extended:false}));
 var morgan = require('morgan');
 console.log('ruta' + ' '+ __dirname .blue);
