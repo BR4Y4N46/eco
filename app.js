@@ -26,6 +26,6 @@ app.use((req, res)=>{
 
 
 
-app.listen(4040, () =>{
-    console.log('server on port 4040')
+app.listen(8080, () =>{
+    console.log('server on port 8080')
 })
