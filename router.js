@@ -50,7 +50,7 @@ const conexion = require('./database/db');
 
 //});
 const crud = require('./controllers/crud');
-router.post('/index.html', crud.save);
+router.post('/save', crud.save);
 //router.post('/update', crud.update);
 
 module.exports = router
