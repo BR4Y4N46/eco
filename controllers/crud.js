@@ -41,7 +41,7 @@ exports.save = (req, res)=>{
        if(error) {
           console.log(error);
     } else{
-      res.redirect('index.html');
+      res.redirect('./');
       console.log('_________________Sucessfull_____________________'.green);
     } 
 })
